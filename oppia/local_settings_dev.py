@@ -95,7 +95,7 @@ def modify(settings):
     settings['OPPIA_GOOGLE_ANALYTICS_CODE'] = 'UA-3609005-11'
     settings['OPPIA_GOOGLE_ANALYTICS_DOMAIN'] = 'oppia-mobile.org'
     
-    settings['OPPIA_MAX_UPLOAD_SIZE'] = 5242880         # max course file upload size - in bytes
+    settings['OPPIA_MAX_UPLOAD_SIZE'] = 536870912         # max course file upload size - in bytes
 
     settings['OPPIA_MEDIA_FILE_TYPES'] = ("video/m4v","video/mp4","audio/mpeg","video/3gp","video/3gpp", "audio/amr")
     settings['OPPIA_MEDIA_IMAGE_FILE_TYPES'] = ("image/png", "image/jpeg")
